@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "esnext",
+        "strict": true,
+        "lib": ["ESNext", "DOM"],
+        "types": ["node"],
+        "strictNullChecks": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": ["**/dist", "**/node_modules", "**/test"]
+}

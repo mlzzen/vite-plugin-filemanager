@@ -3,25 +3,33 @@
     "version": "0.0.1",
     "description": "copy files",
     "main": "dist/index.js",
-    "scripts": {},
+    "scripts": {
+        "prettier": "prettier --write ."
+    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/creanme/vite-plugin-copy.git"
+        "url": "git+https://github.com/mlzzen/vite-plugin-filemanager.git"
     },
     "keywords": [
         "vite"
     ],
-    "author": "creanme",
+    "author": "mlzzen",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/creanme/vite-plugin-copy/issues"
+        "url": "https://github.com/mlzzen/vite-plugin-filemanager/issues"
     },
     "peerDependencies": {
         "vite": "^2.0.0"
     },
     "devDependencies": {
+        "@types/archiver": "^5.1.1",
+        "@types/node": "^16.3.3",
+        "prettier": "^2.3.2",
         "typescript": "^4.2.4",
         "vite": "^2.2.3"
     },
-    "homepage": "https://github.com/creanme/vite-plugin-copy#readme"
+    "homepage": "https://github.com/mlzzen/vite-plugin-filemanager#readme",
+    "dependencies": {
+        "archiver": "^5.3.0"
+    }
 }
