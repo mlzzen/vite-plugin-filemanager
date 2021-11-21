@@ -1,1 +1,1 @@
-# vite-plugin-copy
+# vite-plugin-filemanager
