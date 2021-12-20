@@ -1,9 +1,11 @@
 {
-    "name": "vite-plugin-copy",
+    "name": "vite-plugin-filemanager",
     "version": "0.0.1",
     "description": "copy files",
     "main": "dist/index.js",
     "scripts": {
+        "dev": "npm run build -- --watch",
+        "build": "tsup src/index.ts --dts --format cjs,esm",
         "prettier": "prettier --write ."
     },
     "repository": {
@@ -26,7 +28,8 @@
         "@types/node": "^16.3.3",
         "prettier": "^2.3.2",
         "typescript": "^4.2.4",
-        "vite": "^2.2.3"
+        "vite": "^2.2.3",
+        "tsup": "^5.7.1"
     },
     "homepage": "https://github.com/mlzzen/vite-plugin-filemanager#readme",
     "dependencies": {

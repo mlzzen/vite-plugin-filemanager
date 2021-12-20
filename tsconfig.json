@@ -1,15 +1,15 @@
 {
     "compilerOptions": {
-        "target": "ESNext",
         "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "declaration": true,
         "strict": true,
-        "lib": ["ESNext", "DOM"],
-        "types": ["node"],
-        "strictNullChecks": true,
-        "moduleResolution": "Node",
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
-    },
-    "exclude": ["**/dist", "**/node_modules", "**/test"]
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true
+    }
 }
