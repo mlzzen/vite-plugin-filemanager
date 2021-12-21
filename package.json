@@ -1,13 +1,16 @@
 {
     "name": "vite-plugin-filemanager",
-    "version": "0.0.1",
-    "description": "copy files",
+    "version": "0.1.1",
+    "description": "manage files",
     "main": "dist/index.js",
     "scripts": {
         "dev": "npm run build -- --watch",
         "build": "tsup src/index.ts --dts --format cjs,esm",
         "prettier": "prettier --write ."
     },
+    "files": [
+        "dist"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mlzzen/vite-plugin-filemanager.git"
