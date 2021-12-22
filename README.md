@@ -1,7 +1,7 @@
 # vite-plugin-filemanager
 
 ```ts
-import { defineConfig, PluginOption } from 'vite'
+import { defineConfig } from 'vite'
 import { filemanager } from 'vite-plugin-filemanager'
 
 export default defineConfig({
