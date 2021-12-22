@@ -9,7 +9,7 @@ export default defineConfig({
         filemanager({
             source: './dist/',
             destination: './dist.zip',
-        }) as PluginOption,
+        }),
     ],
 })
 ```
